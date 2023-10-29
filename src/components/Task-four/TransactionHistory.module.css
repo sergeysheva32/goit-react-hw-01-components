@@ -1,0 +1,17 @@
+.transactionHistory {
+  width: 100%;
+}
+
+thead {
+  background-color: #2a99f3;
+  color: #fff;
+}
+
+tr {
+  height: 45px;
+  text-align: center;
+}
+
+tr:nth-child(2n) {
+  background-color: #d4d2d2;
+}

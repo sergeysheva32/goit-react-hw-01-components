@@ -1,0 +1,35 @@
+.item {
+  align-items: center;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.status {
+  display: block;
+
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+
+  border-radius: 50%;
+}
+.status__true {
+  composes: status;
+  background-color: #1b9c26;
+}
+
+.status__false {
+  composes: status;
+  background-color: #a82929;
+}
+
+.avatar {
+  border: 1px solid #ccc;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+}
