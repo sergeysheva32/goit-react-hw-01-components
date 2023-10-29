@@ -30,7 +30,7 @@ export default function App() {
         <FriendList friends={friends} />
       </Block>
       <Block title={"Task-4"}>
-        <TransactionHistory transactions={transactions} />;
+        <TransactionHistory transactions={transactions} />
       </Block>
     </div>
     

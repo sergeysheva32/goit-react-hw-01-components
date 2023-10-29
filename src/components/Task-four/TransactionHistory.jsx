@@ -22,7 +22,7 @@ export default function TransactionHistory({ transactions }) {
         ))}
       </tbody>
     </table>
-  );
+  )
 }
 
 TransactionHistory.prototype = {
