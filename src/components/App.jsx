@@ -4,10 +4,10 @@ import friends from '../json/friends.json';
 import transactions from '../json/transactions.json';
 
 import Block from './Block/Block';
-import Profile from './Task-one/Profile';
-import Statistics from './Task-two/Statistics';
-import FriendList from './Task-three/FriendList';
-import TransactionHistory from './Task-four/TransactionHistory';
+import Profile from './Profile/Profile';
+import Statistics from './Statistics/Statistics';
+import FriendList from './FriendList/FriendListItem/FriendList';
+import TransactionHistory from './TransactionHistory/TransactionHistory';
 
 
 export default function App() {

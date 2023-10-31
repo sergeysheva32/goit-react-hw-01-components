@@ -2,6 +2,9 @@
   align-items: center;
   display: flex;
   margin-bottom: 15px;
+  border: 1px solid #ccc;
+  width: 250px;
+  box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
 }
 
 .status {
@@ -10,7 +13,7 @@
   width: 15px;
   height: 15px;
   margin-right: 20px;
-
+  margin-left: 20px;
   border-radius: 50%;
 }
 .status__true {
@@ -24,7 +27,6 @@
 }
 
 .avatar {
-  border: 1px solid #ccc;
   margin-right: 20px;
   padding: 15px;
 }

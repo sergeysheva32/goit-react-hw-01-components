@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import css from '../Task-one/Profile.module.css';
+import css from './Profile.module.css';
 import defaultImg from './default.png';
 
 export default function Profile({ username = "User Name", tag, location, avatar = defaultImg, stats: { followers, views, likes }, }) {
