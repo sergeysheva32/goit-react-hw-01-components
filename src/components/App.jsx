@@ -13,7 +13,7 @@ import TransactionHistory from './TransactionHistory/TransactionHistory';
 export default function App() {
   return (
     <div>
-      <Block title={"Task-1"}>
+      <Block nameBlock={"Task-1"}>
         <Profile
         username={user.username}
         tag={user.tag}
@@ -22,14 +22,13 @@ export default function App() {
         stats={user.stats}
         />
       </Block>
-      <Block title={"Task-2"}>
+      <Block nameBlock={"Task-2"}>
         <Statistics title="Upload stats" stats={data} />
-        <Statistics stats={data} />
       </Block>
-      <Block title={"Task-3"}>
+      <Block nameBlock={"Task-3"}>
         <FriendList friends={friends} />
       </Block>
-      <Block title={"Task-4"}>
+      <Block nameBlock={"Task-4"}>
         <TransactionHistory transactions={transactions} />
       </Block>
     </div>
